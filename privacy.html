@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — multi-gmail-mcp</title>
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#5c5c5c;--line:#e3e3e3;--accent:#1a5fb4}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--fg:#ededed;--muted:#a3a3a3;--line:#2e2e2e;--accent:#7aa8e8}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:64px 16px}
+h1{font-size:26px;margin:0 0 4px}
+.date{color:var(--muted);margin:0 0 32px;font-size:14px}
+h2{font-size:18px;margin:32px 0 8px}
+ul{padding-left:20px}
+a{color:var(--accent)}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Privacy Policy</h1>
+<p class="date">multi-gmail-mcp — last updated 20 September 2026</p>
+
+<h2>1. Who operates this application</h2>
+<p>multi-gmail-mcp is operated by an individual, contactable at daonbase@gmail.com. It is a private tool, not a commercial service, and it has no users other than the operator and the Google accounts the operator owns or administers.</p>
+
+<h2>2. Google user data accessed</h2>
+<p>With the explicit consent of each connected account, the application requests these OAuth scopes:</p>
+<ul>
+<li><code>.../auth/gmail.readonly</code> — read-only access to messages, threads and labels, used to search and display mail.</li>
+<li><code>.../auth/drive</code> — access to Drive files, used to search, read, create, rename, update and share files, and to move files to the trash on request.</li>
+<li><code>.../auth/userinfo.email</code> — the account's email address, used only to identify which connected account a result belongs to.</li>
+</ul>
+
+<h2>3. How the data is used</h2>
+<p>Data retrieved from Google is used solely to answer the operator's own requests within the session that made them — for example, finding a document across several accounts, reading a message, or creating a file. It is not used for advertising, profiling, or any purpose unrelated to that request.</p>
+
+<h2>4. Storage and retention</h2>
+<p>The application runs entirely on the operator's own computer. It does not operate a server, database or cloud backend, and it does not transmit Google user data to any third party. Message and file contents are held in memory only for the duration of a request and are not written to disk.</p>
+<p>OAuth tokens are the only data stored persistently. They are kept in an encrypted file (AES-256-GCM) in the operator's home directory, readable only by that user account, and are deleted when an account is disconnected.</p>
+
+<h2>5. Sharing</h2>
+<p>No Google user data is sold, rented, or shared with any third party. No human other than the operator has access to it.</p>
+
+<h2>6. Limited Use disclosure</h2>
+<p>The use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+
+<h2>7. Revoking access</h2>
+<p>Any connected account can revoke access at any time at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>. Revoking immediately invalidates the stored tokens. Tokens can also be removed locally by disconnecting the account in the application.</p>
+
+<h2>8. Children</h2>
+<p>The application is not directed at children and is not used by anyone under 18.</p>
+
+<h2>9. Changes</h2>
+<p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+<h2>10. Contact</h2>
+<p>Questions about this policy: daonbase@gmail.com</p>
+
+<footer><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></footer>
+</div>
+</body>
+</html>
